@@ -1,0 +1,98 @@
+ <!----------------
+
+     Assignment 4
+     Name: Marissa Steindel
+     Date: July 7, 2022
+     Description: Asynchronous Javascript and XML
+
+ ------------------->
+
+
+ <!--
+ 1. Present user with form
+ 2. Generate URL from form input
+ 3. Query the API with SoQL
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="assignment4styles.css?version=1" />
+     <script src="assignment4.js"></script>
+     <!-- type="text/javascript" -->
+     <title>Assignment 4</title>
+ </head>
+ <body>
+        <header>
+            <h1 id="title">Winnipeg Substance Use Records</h1>
+            <h3 id="subheading">A patient's description of incidents involving substances, <br>documented by the Winnipeg Fire Paramedic Services</h3>
+            <h4>Data provided by the <a href="https://data.winnipeg.ca/">City of Winnipeg Open Data Catalogue</a></h4>
+        </header>
+
+     <section>
+        <form id="form" method="post" action="#">
+
+            <div>
+                <label for="searchInput">Search by substance: </label>
+                <input type="text" name="substance" id="searchInput" required/>
+                <button id="substanceSearch" type="submit">Search</button>
+                <p class="inline" >Try searching for Marijuana, Alcohol, Opioids, or Cocaine.</p>
+            </div>
+
+<!--             <div id="optionalBoxes">
+                <div>
+                    <input type="checkbox" name="neighbourhood" id="neighbourhoodInput" >
+                    <label for="neighbourhood">Show neighbourhood </label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="gender" id="genderInput" >
+                    <label for="gender">Show gender </label>
+                </div>
+            </div> -->
+
+        </form>
+<!--
+        <p class="help">Try searching for
+            <a class="query" href="#Marijuana">Marijuana</a>,
+            <a class="query" href="#Alcohol">Alcohol</a>,
+            <a class="query" href="#Meth">Crystal Meth</a>, or
+            <a class="query" href="#Cocaine">Cocaine</a>.
+        </p>
+
+ -->
+
+        <!-- <p id="explanation">The 100 most recent incidents involving 'Cocaine'.</p> -->
+        <p id="explanation"></p>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Incident Number</th>
+                    <th>Substance</th>
+                    <th>Age</th>
+                    <th id="genderTH">Gender</th>
+                    <th id="neighbourhoodTH">Neighbourhood</th>
+                    <th>Dispatch</th>
+                </tr>
+            </thead>
+            <tbody>
+    <!--
+                    <tr>
+                    <td>123456</td>
+                    <td>May 21 1996</td>
+                    <td>60 to 64</td>
+                    <td>Cocaine</td>
+                </tr>
+    -->
+            </tbody>
+        </table>
+    </section>
+
+ </body>
+ </html>
+
+

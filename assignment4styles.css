@@ -1,0 +1,167 @@
+  /*----------------
+
+     Assignment 4
+     Name: Marissa Steindel
+     Date: July 7, 2022
+     Description: Asynchronous Javascript and XML
+
+ -------------------*/
+
+html
+{
+    background-color: grey;
+    font-family: sans-serif;
+    margin: 100px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 15px black;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1#title
+{
+    font-size: 2em;
+}
+
+#subheading
+{
+    margin-bottom: 5px;
+    /*width: 80%;*/
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+p
+{
+    margin: 5px 0px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input
+{
+    /*display: inline;*/
+}
+
+.inline
+{
+    /*display: inline;*/
+}
+
+#optionalBoxes
+{
+    margin: 6px 0px;
+}
+
+button
+{
+    margin: 10px 0px;
+}
+
+#explanation
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+table
+{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    /*background-color: #2D4F11;*/
+    /*color: #DDD;*/
+    /*margin: 25px auto;*/
+    /*padding: 10px;*/
+    /*border-radius: 15px;*/
+    /*box-shadow:  5px 5px 10px #FFF;*/
+    border-collapse: collapse;
+    /*border-spacing: 40px;*/
+}
+
+#genderTH, #neighbourhoodTH
+{
+    display: none;
+}
+
+thead
+{
+    display: none;
+    border: 2px solid black;
+
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: whitesmoke;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: lightgrey;
+}
+
+tbody tr:hover
+{
+    background-color: darkgrey;
+    /*font-weight: bold;*/
+    color: black;
+}
+
+td
+{
+    text-align: center;
+    border-bottom: 1px grey solid;
+}
+
+
+
+a
+{
+    text-decoration: none;
+}
+
+
+#info
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin: 0px;
+    /*background-color: lightpink;*/
+    margin-left: 10px;
+
+}
+
+span
+{
+    font-weight: bold;
+}
+
+
