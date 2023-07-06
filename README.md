@@ -3,3 +3,5 @@
 <br><br>
 WEBD-2008 Assignment 4: Fetch data from open API with JavaScript
 
+![Substance Use Open API](wpgAPI.JPG)
+
